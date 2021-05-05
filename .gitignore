@@ -2,4 +2,8 @@
 */.ipynb_checkpoints/*
 .local
 .cache
+.config
+.ipython
+.jupyter
+.npm
 counts.csv
