@@ -30,7 +30,7 @@ jobs:
           npm install
           npm run-script build
 
-      - name: Deploy with gh-pages
+      - name: Run deploy script
         working-directory: ${{env.working-directory}}
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
